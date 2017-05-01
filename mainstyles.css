@@ -50,8 +50,31 @@ nav li a {
 
 #artist-image-and-contact {
 	height: 500px;
-	width: 25%;
+	width: 15%;
+	min-width: 220px;
 	border-right: 1px blue solid;
+}
+
+h3.socialmediamessage {
+	text-align: center;
+	font-size: 110%;
+	padding: 15px 15px 0px;
+	border: none;
+}
+
+#socialmedialinks {
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.socialmediaicon {
+	margin: 0px 7.5px;
+}
+
+#artistimage {
+	display: block;
+	margin: 0 auto;
 }
 
 #artist-information {
