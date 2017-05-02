@@ -54,7 +54,31 @@ nav li a {
 	text-decoration: none;
 	padding: 1px 20px;
 }
+/* Concert Link Object */
+h4 {
+	font-size: 110%;
+	margin-bottom: 10px;
+}
+.concert-button {
+	text-decoration: none;
+	color: black;
+}
 
+.concert-link-div {
+	border: blue 1px solid;
+	background-color: lightblue;
+	width: 90%;
+	margin: 0 auto;	
+}
+
+.concert-title {
+	font-size: 100%;
+	margin: 15px 15px 0px;
+}
+
+.concert-info {
+	margin: 15px 10px 15px 5px;
+}
 /* Artist Page */
 #artist-image-and-contact, #artist-information {
 	float: left;
