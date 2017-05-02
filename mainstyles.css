@@ -1,7 +1,29 @@
 @charset "utf-8";
-body, html, h1, h2, h3, h4, h5, h6{
+body, html{
 	margin: 0px;
 	padding: 0px;
+	min-width: 960px;
+}
+
+h1, h2, h3, h4, h5, h6, nav li a {	/* Set the font of all headings and the Nav Options to Serif Fonts*/
+	margin: 0px;
+	padding: 0px;
+	font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+}
+
+p {	/* Set paragraph fonts to san-serif */
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+	font-size: 95%;
+}
+#main {
+	margin: 10px 75px;
+}
+
+#main h2, h3 {
+	margin: 0px 0px 20px;
+	padding: 5px 0px;
+	border-bottom: 1px blue solid;
+	
 }
 
 /* Header & Nav */
@@ -34,38 +56,29 @@ nav li a {
 }
 
 /* Artist Page */
-#main {
-	margin: 10px 75px;
-}
-
-#main h2, h3 {
-	margin: 0px 0px 20px;
-	padding: 5px 0px;
-	border-bottom: 1px blue solid;
-	
-}
 #artist-image-and-contact, #artist-information {
 	float: left;
 }
 
+#artistimage {
+	padding: 10px 0px 0px 0px;
+}
+
 #artist-image-and-contact {
 	height: 500px;
-	width: 15%;
-	min-width: 220px;
-	border-right: 1px blue solid;
+	width: 240px;
 }
 
 h3.socialmediamessage {
 	text-align: center;
 	font-size: 110%;
-	padding: 15px 15px 0px;
+	padding: 10px 15px 0px;
 	border: none;
 }
 
 #socialmedialinks {
-	display: block;
 	width: 150px;
-	margin: 0 auto;
+	margin: 0px 45px;
 }
 
 .socialmediaicon {
@@ -78,7 +91,13 @@ h3.socialmediamessage {
 }
 
 #artist-information {
-	margin: 0px 20px;
+	margin: 0px 5px;
 	padding: 0px;
 	width: 70%;
+}
+
+#artist-information p {
+	width: 95%;
+	text-align: justify;
+	padding: 0px 10px;
 }
