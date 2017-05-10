@@ -1,19 +1,27 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>BRO Artists - Bronwyn Douglas</title>
-<link href="mainstyles.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<title>BRO Artists - Bronwyn Douglas</title>
+	<link href="mainstyles.css" rel="stylesheet" type="text/css">
+	
+	<!-- Links for the JS carousel -->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<script src="carousel.js" type="text/javascript"></script>
 </head>
 <body>
 	<header>
 		<img src="NEW-BRO-LOGO-BLUE-ORANGE.png" title="Barrier Reef Orchestra" alt="Barrier Reef Orchestra Logo & Title" id="logo">
-		<nav>
+		<nav class="navigation">
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">About Us</a></li>
 				<li><a href="#">Our Members</a></li>
 				<li><a href="#">Events</a></li>
+				<li><a href="#">Gallery</a></li>
 				<li><a href="#">Newsfeed</a></li>
 				<li><a href="#">Support Us</a></li>
 				<li><a href="#">Contact Us</a></li>
@@ -58,19 +66,30 @@
 		</section>	<!-- End of Artist Information Section -->
 	</div> <!-- End of Main -->
 	<footer id="footer">
-		<aside id="sponsors">
-						
-		</aside>
-		<div id="footer-sponor-row">
-			<img src="sponors_attempted_responsive.png" title="Barrier Reef Orchestra's Sponors" alt="Our Sponors">	
-		</div>	<!-- End of Sponor Row -->
-		<div id="footer-form-row">
+	   	<div class="container">
+		    <section class="sponors slider">	<!-- The following is from a JS example -->
+				<div class="slide"><img src="https://www.solodev.com/assets/carousel/image1.png"></div>
+			    <div class="slide"><img src="https://www.solodev.com/assets/carousel/image2.png"></div>
+			    <div class="slide"><img src="https://www.solodev.com/assets/carousel/image3.png"></div>
+			    <div class="slide"><img src="https://www.solodev.com/assets/carousel/image4.png"></div>
+			    <div class="slide"><img src="https://www.solodev.com/assets/carousel/image5.png"></div>
+			    <div class="slide"><img src="https://www.solodev.com/assets/carousel/image6.png"></div>
+			    <div class="slide"><img src="https://www.solodev.com/assets/carousel/image7.png"></div>
+			    <div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
+		    </section>		<!-- End of JS example -->
+		</div>	<!-- End of Sponor Div -->
+		<div id="footer-nav" class="navigation">
 			<ul>
-				<li>Membership Form</li>
-				<li>Player Registration Form</li>
-				<li>Benefactor's Form (Donatations)</li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Our Members</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Newsfeed</a></li>
+				<li><a href="#">Support Us</a></li>
+				<li><a href="#">Contact Us</a></li>
 			</ul>
-		</div>	<!-- End of Middle Column -->
+		</div>	<!-- End of Footer Nav -->
 	</footer>
 </body>
 </html>
