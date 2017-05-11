@@ -29,8 +29,9 @@ p {	/* Set paragraph fonts to san-serif */
 /* Footer */
 #footer {
 	clear: both;
-	padding-top: 5px; padding-bottom: 5px;
+	padding-top: 15px; padding-bottom: 5px;
 	background-color: #2b3c67;
+	min-width: 1080px;
 }
 
 .footerline {
@@ -39,6 +40,13 @@ p {	/* Set paragraph fonts to san-serif */
 	margin: 0 auto;
 }
 
+#footer-nav {
+	margin-top: 20px;
+}
+
+#footer-nav ul, #footer-nav li a, #footer-nav h6 {
+	margin: 0px;
+}
 #footer-nav li a {
 	font-size: 100%;
 	padding: 1px 10px;
@@ -115,6 +123,7 @@ nav li a {
 	background-color: #4369b0;
 	color: white;
 	height: 125px;
+	width: 700px;
 }
 
 .concert-title-date {
@@ -197,8 +206,14 @@ h3.socialmediamessage {
 }
 
 /* Carosuel Example Styles */
+.container {
+	margin-top: 5px;
+	min-width: 1080px;
+}
+
 .sponsors {
 	width: 85%;
+	min-width: 799px;
 	float: right;
 	background-color: white;
 }
