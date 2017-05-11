@@ -1,6 +1,6 @@
 $(document).ready(function(){
-			$('.sponors').slick({
-				slidesToShow: 4,
+			$('.sponsors').slick({
+				slidesToShow: 6,
 				slidesToScroll: 1,
 				autoplay: true,
 				autoplaySpeed: 1000,

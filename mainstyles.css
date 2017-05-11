@@ -30,18 +30,24 @@ p {	/* Set paragraph fonts to san-serif */
 #footer {
 	clear: both;
 	padding-top: 5px; padding-bottom: 5px;
-	background-color: #005794;
+	background-color: #2b3c67;
 }
 
-#footer-sponor-row img{
-	max-width: 100%;
-	min-width: 960px;
-	height: auto;
+.footerline {
+	border-top: 2px solid white;
+	width: 95%;
+	margin: 0 auto;
 }
 
 #footer-nav li a {
 	font-size: 100%;
 	padding: 1px 10px;
+}
+
+.footer-title {
+	text-align: center;
+	color: white;
+	font-size: 120%;
 }
 
 /* Header & Nav */
@@ -54,7 +60,7 @@ p {	/* Set paragraph fonts to san-serif */
 	list-style: none;
 	text-align: center;
 	padding: 10px 0px;
-	background-color: #005794;
+	background-color: #2b3c67;
 }
 
 .navigation li {
@@ -76,32 +82,73 @@ nav li a {
 	padding: 1px 20px;
 }
 
-/* Concert Link Object */
-h4 {
-	font-size: 110%;
-	margin-bottom: 10px;
+/* Breadcrumb Navigation */
+#breadcrumb-nav {
+	margin: -10px 0px 0px;
 }
-.concert-button-link {
-	text-decoration: none;
+
+#breadcrumb-nav ul {
+	list-style: none;
+	background-color: #d4d4d4;
+}
+
+#breadcrumb-nav li:first-child {
+	margin-left: 35px;	
+}
+
+#breadcrumb-nav li a {
 	color: black;
+	text-decoration: underline;
 }
 
-.concert-button {
-	border: blue 1px solid;
-	background-color: lightblue;
-	width: auto;
-	margin: 0 10px 20px;	
+#breadcrumb-nav li{
+	display: inline-block;
 }
 
-.concert-title {
-	font-size: 100%;
-	margin: 15px 15px 0px;
+#breadcrumb-nav li+li:before {
+	padding: 0px 10px;
+	content: ">\00a0"
 }
 
-.concert-info {
-	margin: 15px 10px 15px 5px;
+/* Concert Link Object */
+.concert-overview {
+	background-color: #4369b0;
+	color: white;
+	height: 125px;
 }
 
+.concert-title-date {
+	width: 25%;
+	height: 105px;
+	float: left;
+	border-right: 1px solid white;
+	margin: 10px 10px;
+}
+
+.concert-location, .concert-date {
+	margin-left: 20px;
+	font-size: 85%;
+}
+
+.concert-summary {
+	padding-top: 15px;
+	width: 53%;
+	margin: 0px;
+	float: left;
+}
+
+.concert-page-button {
+	text-align: center;
+	background-color: white;
+	width: 15%;
+	height: 40px;
+	float: left;
+	margin-top: 75px; margin-left: 30px;
+}
+
+.concert-page-button:hover {
+	text-decoration: none;
+}
 /* Artist Page */
 #artist-image-and-contact, #artist-information {
 	float: left;
@@ -150,6 +197,12 @@ h3.socialmediamessage {
 }
 
 /* Carosuel Example Styles */
+.sponsors {
+	width: 85%;
+	float: right;
+	background-color: white;
+}
+
 .slick-slide {
     margin: 0px 20px;
 }
@@ -258,7 +311,7 @@ h3.socialmediamessage {
 .slick-vertical .slick-slide
 {
     display: block;
-    height: auto;
+    height: 150px;
     border: 1px solid transparent;
 }
 .slick-arrow.slick-hidden {
