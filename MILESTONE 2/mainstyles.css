@@ -27,6 +27,36 @@ footer, .push {
 	height: 300px;
 }
 
+/* ANNOUNCEMENTS */
+#announcements {
+	margin-top: 15px;
+}
+#announcements h2 {
+	text-align: center;
+	border-bottom: 2px solid #005794;
+	width: 80%;
+	margin: 0 auto 15px;
+}
+.announcement-box {
+	background-color: #005794;
+	width: 30%;
+	height: 120px;
+	margin-left: 20px;
+	float: left;
+}
+
+.announcement-title {
+	color: white;
+	font-size: 120%;
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+
+.announcement-info {
+	color: white;
+	margin: 0px 0px 0px 20px;
+}
+
 /* NAV */
 .nav ul {
 	text-align: center;
