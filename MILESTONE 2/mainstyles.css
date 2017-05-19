@@ -1,0 +1,210 @@
+@charset "utf-8";
+/*
+COLORS
+Main Blue (Nav, Footer & Logo): #005794 
+*/
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#header-img {
+	display: block;
+	margin: 10px auto;
+}
+
+/* Sticky Footer */
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -300px;
+}
+
+footer, .push {
+	height: 300px;
+}
+
+/* NAV */
+.nav ul {
+	text-align: center;
+	font-size: 0;	/* Removes the gap between li's from tab/new line in HTML */
+	list-style: none;
+	background-color: #005794;
+	padding: 5px 0px;
+}
+
+.nav li {
+	font-size: 15px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+
+.nav li:last-child {	
+	border-right: none; /* Remove the border from the last nav element */
+}
+
+.nav a, .nav a:visited {
+	display: block;
+	padding: 5px 15px 5px 16px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:hover, .nav a:active, .nav a:focus {
+	background-color: white;
+	color: #005794;
+}
+
+/* Footer */
+footer {
+	background-color: #005794;
+	padding: 15px 0px;
+	min-width: 1080px; /* Unsure about this */
+}
+
+.footerline {
+	border-top: 2px solid white;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.footer-title {
+	text-align: center;
+	color: white;
+	font-size: 120%;
+}
+
+#copyright-info {
+	color: white;
+	text-align: center;
+}
+/* Sponsors Slider */
+.container {
+	margin-top: 5px;
+	min-width: 1080; /* This might be a problem later keep an eye on it */
+}
+
+.sponsors {
+	width: 85%;
+	min-width: 799px;
+	float: right;
+	background-color: white;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: 150px;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
