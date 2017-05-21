@@ -109,7 +109,7 @@ footer, .push {
 	float: left;
 	margin-top: 7.5px;
 	height: 100%;
-	width: 240px;
+	width: 231px;
 	border-right: 1px solid white;
 }
 
@@ -117,24 +117,28 @@ footer, .push {
 	float: left;
 	margin-top: 7.5px;
 	height: 100%;
-	width: 240px;
+	width: 231px;
 	border-right: 1px solid white;
 }
 
 #next-con-book-now, #next-con-learn-more {
 	display: block;
 	float: left;
-	width: 368px;
+	width: 386px;
 	height: 50px;
 	background-color: white;
 }
 
 #next-con-learn-more {
 	margin: 12.5px;
+	padding: 14.5px;
+	text-align: center;
 }
 
 #next-con-book-now {
 	margin: 0px 12.5px 12.5px;
+	padding: 14.5px;
+	text-align: center;
 }
 
 /* NAV */
