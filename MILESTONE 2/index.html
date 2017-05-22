@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Page Title Here</title>
+	<title>Barrier Reef Orchestra - Home</title>
 	<link href="mainstyles.css" rel="stylesheet" type="text/css">
 	
 	<!-- Carousel -->
@@ -14,6 +14,14 @@
 	<!-- End of Carousel -->
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<header>
 		<img id="header-img" src="logos/barrier_reef_orchestra_logo.png" title="Barrier Reef Orchestra" alt="Barrier Reef Orchestra Logo" width="518" height="184">
 		<nav id="main-nav" class="nav">
@@ -59,7 +67,7 @@
 						
 					</div></a>
 				</div>
-			</section>
+			</section>	<!-- End of Announcements -->
 			<section id="upcoming-concert">
 				<div id="title-location-time">
 					<h3 id="next-con-title">WORLD OF MUSIC</h3>
@@ -88,9 +96,16 @@
 				<a><div id="next-con-book-now">
 					<p>BOOK NOW</p>
 				</div></a>
+			</section>	<!-- End of Upcoming Concert -->
+			<section id="facebook">
+				<h2 class="secondary-main">Join Us On Facebook</h2>
+				<div class="fb-page" data-href="https://www.facebook.com/nqorchestra/" data-tabs="timeline" data-width="411" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nqorchestra/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nqorchestra/">Barrier Reef Orchestra</a></blockquote></div>
+			</section>
+			<section id="home-member-buttons">
+				
 			</section>
 		</div>	<!-- End of Main -->
-		<div class="push"></div>
+        <div class="push"></div> <!-- Used to push the footer to create a 'sticky' footer -->
 	</div>	<!-- End of Container -->
 	<footer>
 			<div class="footerline"></div> <!-- Line for the top of Footer -->

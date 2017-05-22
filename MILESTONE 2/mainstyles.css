@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Sticky Footer */
 #wrapper {
 	min-height: 100%;
-	height: auto !important;
 	height: 100%;
 	margin: 0 auto -300px;
 }
@@ -141,6 +140,12 @@ footer, .push {
 	text-align: center;
 }
 
+/* FACEBOOK INTEGRATION */
+#facebook {
+	width: 411px;
+	float: left;
+	text-align: center;
+}
 /* NAV */
 .nav ul {
 	text-align: center;
@@ -198,7 +203,7 @@ footer {
 /* Sponsors Slider */
 .container {
 	margin-top: 5px;
-	min-width: 1080; /* This might be a problem later keep an eye on it */
+	min-width: 1080px; /* This might be a problem later keep an eye on it */
 }
 
 .sponsors {
