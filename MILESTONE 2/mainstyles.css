@@ -1,4 +1,4 @@
-@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
 /*
 COLORS
 Main Blue (Nav, Footer & Logo): #005794 
@@ -11,8 +11,8 @@ body, html {
 	min-width: 1366px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	/* For Font Later */
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 }
 
 #header-img {
@@ -40,11 +40,12 @@ footer, .push {
 }
 
 #announcements {
-	margin-bottom: 175px;;
+	margin-bottom: 220px;
 }
 
 #announcements h2 {
 	text-align: center;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	border-bottom: 2px solid #005794;
 	margin: 0 auto 15px;
 }
@@ -56,13 +57,14 @@ footer, .push {
 .announcement-box {
 	background-color: #005794;
 	width: 411px;
-	height: 140px;
+	height: 180px;
 	float: left;
 }
 
 .announcement-title {
 	color: white;
-	font-size: 120%;
+	font-size: 130%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	margin: 10px 0px 0px 0px;
 	text-align: center;
 }
@@ -75,7 +77,7 @@ footer, .push {
 /* UPCOMING CONCERT */
 #upcoming-concert {
 	clear: both;
-	height: 140px;
+	height: 200px;
 	background-color: #23c5b7;
 	margin-bottom: 40px;
 }
@@ -83,31 +85,36 @@ footer, .push {
 #title-location-time {
 	width: 361px;
 	height: 80%;
-	margin: 12.5px 0px 0px 50px;
+	margin: 20px 0px 0px 50px;
 	float: left;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	border-right: 1px solid white;
 }
 
 #next-con-title {
-	margin: 5px 0px;
+	margin: 5px 0px 15px;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 }
 
 #next-con-info {
 	float: left;
-	margin: 5px 0px 0px 0px;
+	margin: 13px 0px 0px 0px;
 	text-align: center;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	height: 80%;
 }
 
 #next-con-info ul, #next-con-info li {
 	list-style: none;
 	text-align: center;
+	font-family: 'PT Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 110%;
 	margin-left: -22px;
 }
 
 #conductor {
 	float: left;
-	margin-top: 7.5px;
+	margin-top: 8px;
 	height: 100%;
 	width: 231px;
 	border-right: 1px solid white;
@@ -124,25 +131,32 @@ footer, .push {
 #next-con-book-now, #next-con-learn-more {
 	display: block;
 	float: left;
-	width: 326px;
-	height: 0px;
+	width: 366px;
+	height: 70px;
+	font-size: 115%;
 	background-color: white;
+	cursor: pointer;
 }
 
 #next-con-learn-more {
-	margin: 12.5px;
-	padding: 14.5px;
+	margin: 22px 22px 18px;
+	padding: 24px;
 	text-align: center;
 }
 
 #next-con-book-now {
-	margin: 0px 12.5px 12.5px;
-	padding: 14.5px;
+	margin: 0px 22px 22px;
+	padding: 24px;
 	text-align: center;
 }
 
 /* FACEBOOK INTEGRATION */
-#facebook {
+.secondary-main {
+	margin: 35px 0 40px;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+#facebook, #home-featured-artist {
 	width: 411px;
 	float: left;
 	margin: 0;
@@ -153,10 +167,38 @@ footer, .push {
 	float: left;
 	width: 411px;
 	text-align: center;
+	margin: 0 15px 0 35px;
 }
 
 .home-form-buttons {
-	margin-bottom: 20px;
+	margin-bottom: 25px;
+}
+
+#home-artist-info {
+	width: 301px;
+	margin: 10px 55px;
+	text-align: center;
+}
+
+#home-artist-name {
+	margin: 15px 0;
+}
+
+a #home-go-to-artist {
+	background-color: #005794;
+	color: white;
+	text-decoration: none;
+	width: 311px;
+	height: 42px;
+	margin: 20px 50px;
+}
+
+#home-artist-info {
+	font-size: 110%;
+}
+
+a #home-go-to-artist p {
+	padding: 10px 0px;
 }
 
 /* NAV */
@@ -165,7 +207,7 @@ footer, .push {
 	font-size: 0;	/* Removes the gap between li's from tab/new line in HTML */
 	list-style: none;
 	background-color: #005794;
-	padding: 5px 0px;
+	padding: 10px 0px;
 }
 
 .nav li {
@@ -194,6 +236,7 @@ footer, .push {
 footer {
 	background-color: #005794;
 	padding: 15px 0px;
+	margin-top: 600px;
 	min-width: 1080px; /* Unsure about this */
 	clear: both;
 }
