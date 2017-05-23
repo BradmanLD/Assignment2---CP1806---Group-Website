@@ -52,7 +52,7 @@ footer, .push {
 }
 
 #announcements {
-	margin-bottom: 220px;
+	margin-bottom: 240px;
 }
 
 #announcements h2 {
@@ -69,7 +69,7 @@ footer, .push {
 .announcement-box {
 	background-color: #005794;
 	width: 411px;
-	height: 180px;
+	height: 210px;
 	float: left;
 }
 
@@ -83,7 +83,8 @@ footer, .push {
 
 .announcement-info {
 	color: white;
-	margin: 0px 0px 0px 20px;
+	text-align: center;
+	padding: 10px 20px;
 }
 
 #announcements .read-more-button {
@@ -99,6 +100,12 @@ footer, .push {
 
 .announcement-info-box {
 	height: 105px;
+}
+
+.expiry-date {
+	color: white;
+	text-align: center;
+	font-size: 90%;
 }
 
 /* UPCOMING CONCERT */
