@@ -11,8 +11,12 @@ body, html {
 	min-width: 1366px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+li, p {
+	font-family: 'PT Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
 #header-img {
@@ -20,6 +24,14 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 10px auto;
 }
 
+/* GENERAL CLASSES */
+.remove-link-lines, .remove-link-lines:visted {
+	text-decoration: none;
+}
+
+.remove-link-lines:hover, .remove-link-lines:active, .remove-link-lines:focus {
+	text-decoration: none;
+}
 /* Sticky Footer */
 #wrapper {
 	min-height: 100%;
@@ -72,6 +84,21 @@ footer, .push {
 .announcement-info {
 	color: white;
 	margin: 0px 0px 0px 20px;
+}
+
+#announcements .read-more-button {
+	width: 371px;
+	height: 30px;
+	margin: 0 20px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: white;
+}
+
+.announcement-info-box {
+	height: 105px;
 }
 
 /* UPCOMING CONCERT */
@@ -230,6 +257,7 @@ a #home-go-to-artist p {
 .nav a:hover, .nav a:active, .nav a:focus {
 	background-color: white;
 	color: #005794;
+	text-decoration: none;
 }
 
 /* Footer */
