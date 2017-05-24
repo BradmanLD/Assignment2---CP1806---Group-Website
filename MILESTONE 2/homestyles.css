@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+/*
+COLORS
+Main Blue (Nav, Footer & Logo): #005794 
+*/
+
+/* ANNOUNCEMENTS */
+
+#announcements {
+	margin-bottom: 270px;
+}
+
+#announcements h2 {
+	text-align: center;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 2px solid #005794;
+	margin: 0 auto 20px;
+	font-size: 220%;
+}
+
+#announce2 {
+	margin: 0px 25px;
+}
+
+.announcement-box {
+	background-color: #005794;
+	width: 411px;
+	height: 210px;
+	float: left;
+}
+
+.announcement-title {
+	color: white;
+	font-size: 130%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+
+.announcement-info {
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+#announcements .read-more-button {
+	width: 371px;
+	height: 30px;
+	margin: 0 20px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: white;
+}
+
+.announcement-info-box {
+	height: 105px;
+}
+
+.expiry-date {
+	color: white;
+	text-align: center;
+	font-size: 90%;
+}
+
+/* UPCOMING CONCERT */
+#upcoming-concert {
+	clear: both;
+	height: 200px;
+	background-color: #23c5b7;
+	margin-bottom: 40px;
+}
+
+#title-location-time {
+	width: 361px;
+	height: 80%;
+	margin: 20px 0px 0px 50px;
+	float: left;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-right: 1px solid white;
+}
+
+#next-con-title {
+	margin: 5px 0px 15px;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+#next-con-info {
+	float: left;
+	margin: 13px 0px 0px 0px;
+	text-align: center;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	height: 80%;
+}
+
+#next-con-info ul, #next-con-info li {
+	list-style: none;
+	text-align: center;
+	font-family: 'PT Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 110%;
+	margin-left: -22px;
+}
+
+#conductor {
+	float: left;
+	margin-top: 8px;
+	height: 100%;
+	width: 231px;
+	border-right: 1px solid white;
+}
+
+#special-guests {
+	float: left;
+	margin-top: 7.5px;
+	height: 100%;
+	width: 231px;
+	border-right: 1px solid white;
+}
+
+#next-con-learn-more {
+	display: block;
+	float: left;
+	width: 366px;
+	height: 70px;
+	font-size: 115%;
+	background-color: white;
+	cursor: pointer;
+	margin: 22px 22px 18px;
+	padding: 24px;
+	text-align: center;
+}
+
+#upcoming-concert .ticketShop {
+	margin: 0 22px;
+}
+/* FACEBOOK INTEGRATION */
+.secondary-main {
+	text-align: center;
+	width: 80%;
+	border-bottom: 1px solid #005794;
+	font-size: 220%;
+	margin: 10px auto 25px;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+#facebook, #home-featured-artist {
+	width: 411px;
+	float: left;
+	margin: 0;
+	text-align: center;
+}
+
+#home-sign-up {
+	float: left;
+	width: 411px;
+	text-align: center;
+	margin: 0 15px 0 35px;
+}
+
+.home-form-buttons {
+	margin-bottom: 25px;
+}
+
+#home-artist-info {
+	width: 301px;
+	margin: 10px 55px;
+	text-align: center;
+}
+
+#home-artist-name {
+	margin: 15px 0;
+}
+
+a #home-go-to-artist {
+	background-color: #005794;
+	color: white;
+	text-decoration: none;
+	width: 311px;
+	height: 42px;
+	margin: 40px 50px 60px;
+}
+
+#home-artist-info {
+	font-size: 110%;
+}
+
+a #home-go-to-artist p {
+	padding: 10px 0px;
+}
