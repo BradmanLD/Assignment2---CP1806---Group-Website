@@ -45,6 +45,10 @@ table td {
 	text-decoration: none;
 }
 
+.emphasis {
+	font-weight: bold;
+}
+
 /* Sticky Footer */
 #wrapper {
 	min-height: 100%;
@@ -57,6 +61,9 @@ footer, .push {
 }
 
 /* NAV */
+#main-nav li {
+	font-size: 18px;
+}
 .nav ul {
 	text-align: center;
 	font-size: 0;	/* Removes the gap between li's from tab/new line in HTML */
@@ -87,7 +94,6 @@ footer, .push {
 	color: #005794;
 	text-decoration: none;
 }
-
 /* Footer */
 footer {
 	background-color: #005794;
