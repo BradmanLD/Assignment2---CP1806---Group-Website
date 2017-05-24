@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+/*
+COLORS
+Main Blue (Nav, Footer & Logo): #005794 
+*/
+
+/* CONTACT DETAILS */
+#wrapper h2 {
+	border-bottom: 1px solid #005794;
+	text-align: center;
+}
+
+#contact-table {
+	margin: 0 auto;
+}
+
+#contact-table td {
+	padding: 8px 15px;
+	font-size: 110%;
+	border: 1px solid black;
+}
+
+#contact-details tr:nth-child(odd) {
+	background-color: #b3d1ff;
+}
+
+/* CONTACT FORM */
+#send-a-message {
+	width: 60%;
+}

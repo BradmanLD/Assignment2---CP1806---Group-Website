@@ -20,6 +20,10 @@ li, p {
 	font-family: 'PT Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
+table td {
+	font-family: 'PT Sans', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
 #header-img {
 	display: block;
 	margin: 10px auto;
