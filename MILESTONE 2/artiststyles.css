@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+/*
+COLORS
+Main Blue (Nav, Footer & Logo): #005794 
+*/
+#feat-artist h2 {
+	font-size: 220%;
+	text-align: center;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid #005794;
+	margin-bottom: 20px;
+}
+
+#feat-artist .artist {
+	display: block;
+	margin: 0 auto;
+	background-color: #005794;
+	width: 760px;
+	height: 225px;
+	color: white;
+}
+
+#feat-artist .image {
+	float: left;
+}
+
+#feat-artist .summary {
+	float: left;
+	font-size: 114%;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	height: 170px;
+	width: 452px;
+	margin: 5px 10px 0px;
+}
+
+#feat-artist h3 {
+	font-size: 150%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid white;
+	margin: 10px 0px 5px;
+}
+
+#feat-artist .go-to-artist-btn {
+	float: left;
+	font-size: 110%;
+	text-align: center;
+	background-color: white;
+	padding: 10px;
+	height: 40px;
+	width: 458px;
+	margin: 0 10px;
+}
+
+.artist-section h2 {
+	font-size: 220%;
+	clear: both;
+	text-align: center;
+	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid #005794;
+	margin-bottom: 20px; margin-top: 60px;
+}
+
+/* Other Artists */
+#conductors {
+	margin-bottom: 280px;
+}
+
+.artist-section .artist {
+	display: block;
+	float: left;
+	margin: 10px 25px 40px;
+	background-color: #005794;
+	width: 592px;
+	height: 200px;
+	color: white;
+}
+
+.artist-section .image {
+	float: left;
+}
+
+.artist-section .summary {
+	float: left;
+	font-size: 112%;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	height: 155px;
+	width: 360px;
+	margin: 5px 10px 0px;
+}
+
+.artist-section h3 {
+	font-size: 150%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid white;
+	margin: 5px 0px 5px;
+}
+
+.artist-section .go-to-artist-btn {
+	float: left;
+	font-size: 105%;
+	text-align: center;
+	background-color: white;
+	padding: 5px;
+	height: 30px;
+	width: 360px;
+	margin: 0 10px;
+}
