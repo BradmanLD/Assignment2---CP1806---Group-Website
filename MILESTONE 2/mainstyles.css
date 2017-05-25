@@ -64,6 +64,7 @@ footer, .push {
 #main-nav li {
 	font-size: 18px;
 }
+
 .nav ul {
 	text-align: center;
 	font-size: 0;	/* Removes the gap between li's from tab/new line in HTML */
@@ -73,7 +74,8 @@ footer, .push {
 }
 
 .nav li {
-	font-size: 15px;
+	font-size: 16px;
+	font-family: "PT Serif";
 	display: inline-block;
 	border-right: 1px solid white;
 }
@@ -94,6 +96,34 @@ footer, .push {
 	color: #005794;
 	text-decoration: none;
 }
+
+nav#breadcrumb ul {
+	list-style: none;
+	text-align: center;
+	padding: 8px 0;
+	margin: -10px 0 10px;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: #23c5b7;
+	font-size: 17px;
+}
+
+nav#breadcrumb li, nav#breadcrumb li a {
+	display: inline-block;
+	color: white;
+}
+
+nav#breadcrumb li:first-child {
+	margin-left: 50px;
+}
+
+nav#breadcrumb li+li:before {
+	padding: 8px;
+	content: "/\00a0";
+}
+
+nav#breadcrumb li a {
+}
+
 /* Footer */
 footer {
 	background-color: #005794;
