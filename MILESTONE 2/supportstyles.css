@@ -10,6 +10,16 @@ Main Blue (Nav, Footer & Logo): #005794
 	font-family: "PT Serif", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
+form {
+	font-family: "PT Sans", Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+/* SUPPORT US PAGE */
+.support-option-div {
+	float: left;
+	width: 30%;
+}
+
 /* FEE Styles */
 #fees {
 	text-align: center;
@@ -21,7 +31,8 @@ Main Blue (Nav, Footer & Logo): #005794
 }
 
 #fees li {
-	margin-left: -40px;
+	display: inline-block;
+	padding: 0 20px;
 }
 
 /* MEMBER FORM STYLES */
@@ -29,14 +40,23 @@ Main Blue (Nav, Footer & Logo): #005794
 	float: left; /* The footer doesn't recoginize the content if it isn't floated for some reason */
 }
 
+form label {
+	margin-top: 5px;
+	font-size: 120%;
+}
+
 input[type="text"], input[type="email"], input[type="date"], input[type="tel"], select {
 	width: 100%;
 	padding: 12px 20px;
 	margin: 5px 0 20px;
 	display: inline-block;
-	border: 1px solid #9A9A9A; border-radius: 4px; box-sizing: border-box;
+	border: 2px solid #9A9A9A; border-radius: 4px; box-sizing: border-box;
 	background-color: #f2f2f2;
 	outline: none;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="tel"]:focus {
+	border-color: #23c5b7;
 }
 
 input[type="submit"] {
@@ -54,5 +74,37 @@ input[type="submit"]:hover {
 	background-color: #b3d1ff;
 }
 
-input[type="radio"] {
+label.childNames {
+	width: 160px;
+}
+
+label.childDOBs {
+	width: 50px;
+	margin-left: 30px;
+}
+
+input.childNames {
+	width: 561px;
+}
+
+input.childDOBs {
+	width: 466px;
+}
+
+#membership-form input[type="radio"] {
+	margin-left: 40px; margin-bottom: 15px;
+}
+
+form .subhead {
+	font-size: 150%;
+	font-family: "PT Sans", Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+.radioLabel {
+	font-size: 115%;
+	font-weight: bold;
+}
+
+#membershipInfo {
+	text-align: center;
 }
