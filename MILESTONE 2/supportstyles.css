@@ -15,9 +15,70 @@ form {
 }
 
 /* SUPPORT US PAGE */
+aside {
+	width: 45%;
+	clear: both;
+	margin: 0 auto;
+	font-size: 120%;
+	text-align: center;
+	
+}
 .support-option-div {
 	float: left;
-	width: 30%;
+	width: 385px;
+	height: 390px;
+	font-size: 120%;
+	text-align: center;
+}
+
+.support-option-div h3 {
+	border-bottom: 1px solid #005794;
+	margin-bottom: 15px;
+}
+
+#benefactors {
+	margin: 0 64px;
+}
+
+#membership p, #player p{
+	width: 75%;
+	margin: 0 auto;
+}
+
+#membership li {
+	list-style: none;
+	margin-left: -40px;
+}
+
+#membership .form-btns {
+	margin-top: 46px;
+}
+
+#player {
+	margin-bottom: 65px;
+}
+
+#benefactors .form-btns {
+	margin-top: 49px;
+}
+
+.form-btns {
+	margin-top: 40px;
+}
+
+.form-btn {
+	display: block;
+	width: 80%;
+	height: 40px;
+	margin: 10px auto;
+	font-size: 90%;
+	border: none;
+	background-color: #005794;
+	color: white;
+}
+
+.top-btn {
+	margin-top: 20px;
 }
 
 /* FEE Styles */
@@ -42,7 +103,7 @@ form {
 
 form label {
 	margin-top: 5px;
-	font-size: 120%;
+	font-size: 130%;
 }
 
 input[type="text"], input[type="email"], input[type="date"], input[type="tel"], select {
@@ -96,13 +157,13 @@ input.childDOBs {
 }
 
 form .subhead {
-	font-size: 150%;
+	font-size: 160%;
+	font-weight: bold;
 	font-family: "PT Sans", Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
 }
 
 .radioLabel {
-	font-size: 115%;
-	font-weight: bold;
+	font-size: 125%;
 }
 
 #membershipInfo {
