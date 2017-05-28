@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+/*
+COLORS
+Main Blue (Nav, Footer & Logo): #005794 
+*/
+
+#side-nav {
+	float: left;
+	width: 250px;
+	margin-top: 50px;
+}
+
+#side-nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+#side-nav li {
+	margin-left: -40px; /* Recenter the Li's from bullet point spacing */
+}
+
+#side-nav li a, #side-nav li a:visited {
+	display: block;
+	border: 1px solid lightgrey;
+	color: white;
+	font-size: 110%;
+	padding: 25px 0px;
+	background-color: #005794
+}
+
+#side-nav li a:hover, #side-nav li a:active, #side-nav li a:focus {
+	background-color: white;
+	color: #005794;
+	border: 1px solid #005794;
+	text-decoration: none;
+}
+
+/* ABOUT US */
+#about-us {
+	float: left;
+	width: 980px;
+	margin-left: 40px;
+}
+
+#about-us h2 {
+	font-size: 220%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid #005794;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#about-us h3 {
+	font-size: 180%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid #005794;
+	text-align: center;
+	margin-bottom: 10px; margin-top: 40px;
+}
+
+#about-us p {
+	font-size: 120%;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
