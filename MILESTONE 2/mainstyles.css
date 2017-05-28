@@ -93,6 +93,10 @@ ul.dropdown li a {
 .primary-menu li ul.dropdown li{
 	display: block;
 }
+
+#footer-nav .primary-menu li ul.dropdown {
+	top: -105px;
+}
 /* NAV */
 #main-nav li {
 	font-size: 18px;
