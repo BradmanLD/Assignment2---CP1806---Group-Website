@@ -81,7 +81,7 @@ Main Blue (Nav, Footer & Logo): #005794
 	color: white;
 }
 
-.mnember .image {
+.member .image {
 	float: left;
 }
 
@@ -89,11 +89,14 @@ Main Blue (Nav, Footer & Logo): #005794
 	float: left;
 	font-size: 112%;
 	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	height: 155px;
-	width: 320px;
+	height: 180px;
+	width: 340px;
 	margin: 5px 10px 0px;
 }
 
+.member .info {
+	margin-top: 10px;
+}
 .member h3 {
 	font-size: 150%;
 	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
