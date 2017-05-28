@@ -56,3 +56,47 @@ Main Blue (Nav, Footer & Logo): #005794
 	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	font-style: italic;
 }
+
+
+/* LIFE MEMBERS */
+#life-members {
+	width: 100%;
+	clear: both;
+}
+
+#life-members h2 {
+	font-size: 220%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid #005794;
+	text-align: center;
+}
+
+.member {
+	display: block;
+	float: left;
+	margin: 10px 25px 40px;
+	background-color: #005794;
+	width: 592px;
+	height: 200px;
+	color: white;
+}
+
+.mnember .image {
+	float: left;
+}
+
+.member .summary {
+	float: left;
+	font-size: 112%;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	height: 155px;
+	width: 320px;
+	margin: 5px 10px 0px;
+}
+
+.member h3 {
+	font-size: 150%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid white;
+	margin: 5px 0px 5px;
+}
