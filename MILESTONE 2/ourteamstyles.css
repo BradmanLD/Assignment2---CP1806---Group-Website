@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+/*
+COLORS
+Main Blue (Nav, Footer & Logo): #005794 
+*/
+
+#committee {
+	float: left;
+	width: 622px;
+}
+
+#benefactors {
+	float: left;
+	width: 622px;
+	margin-left: 40px;
+}
+
+#benefactors h2 {
+	font-size: 220%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid #005794;
+	text-align: center;
+}
+
+#benefactors .name {
+	font-size: 140%;
+	margin: 25px 0;
+	font-weight: bold;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: center;
+}
+
+#committee h2 {
+	font-size: 220%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid #005794;
+	text-align: center;
+}
+
+.people {
+	width: 210px;
+	text-align: center;
+	float: left;
+	margin-left: 60px;
+}
+
+.people .name {
+	font-size: 160%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-weight: bold;
+}
+
+.people .position {
+	font-size: 120%;
+	margin-bottom: 40px;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-style: italic;
+}
