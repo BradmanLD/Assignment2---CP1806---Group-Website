@@ -13,6 +13,7 @@ Main Blue (Nav, Footer & Logo): #005794
 	float: left;
 	width: 622px;
 	margin-left: 40px;
+	margin-bottom: 60px;
 }
 
 #benefactors h2 {
@@ -81,6 +82,10 @@ Main Blue (Nav, Footer & Logo): #005794
 	color: white;
 }
 
+.centered {
+	margin: 10px 330px 40px;
+}
+
 .member .image {
 	float: left;
 }
@@ -90,13 +95,14 @@ Main Blue (Nav, Footer & Logo): #005794
 	font-size: 112%;
 	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	height: 180px;
-	width: 340px;
-	margin: 5px 10px 0px;
+	width: 350px;
+	margin: 5px 15px 0px;
 }
 
 .member .info {
 	margin-top: 10px;
 }
+
 .member h3 {
 	font-size: 150%;
 	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
