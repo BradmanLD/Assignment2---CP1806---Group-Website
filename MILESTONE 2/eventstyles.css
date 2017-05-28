@@ -18,6 +18,7 @@ Main Blue (Nav, Footer & Logo): #005794
 	color: white;
 	text-decoration: underline;
 }
+
 .event {
 	width: 1210px;
 	height: 200px;
@@ -26,6 +27,9 @@ Main Blue (Nav, Footer & Logo): #005794
 	color: white;
 }
 
+.event.even {
+	background-color: #23c5b7;
+}
 .event .title-location-date {
 	float: left;
 	width: 320px;
@@ -83,12 +87,16 @@ Main Blue (Nav, Footer & Logo): #005794
 	margin: 20px;
 	width: 366px;
 	height: 70px;
+	color: #005794;
 	font-size: 120%;
 	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	background-color: white;
 	border: 0px;
 }
 
+.buttons .bottombutton {
+	margin: 0 20px;
+}
 .buttons a, .buttons a:visited {
 	color: #005794;
 }

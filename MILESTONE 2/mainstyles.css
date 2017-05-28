@@ -68,6 +68,31 @@ footer, .push {
 	height: 315px;
 }
 
+/* DROPDOWN */
+.primary-menu li {
+	position: relative;
+}
+
+.primary-menu li ul.dropdown {
+	width: 280px;
+	display: none;
+	position: absolute;
+	border: 1px solid black;
+	box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.42);
+	z-index: 15;
+}
+
+ul.dropdown li a {
+	padding: 10px;
+	text-align: center;
+}
+.primary-menu li:hover ul.dropdown {
+	display: block; /* Display the dropdown whent he li is hovered */
+}
+
+.primary-menu li ul.dropdown li{
+	display: block;
+}
 /* NAV */
 #main-nav li {
 	font-size: 18px;
