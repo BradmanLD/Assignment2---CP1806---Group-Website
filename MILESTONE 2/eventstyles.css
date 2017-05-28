@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+/*
+COLORS
+Main Blue (Nav, Footer & Logo): #005794 
+*/
+#upcoming-event h2, .past-events h2 {
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: center;
+	margin-top: 40px;
+	border-bottom: 1px solid #005794;
+}
+
+.event a, .past-events a, .event a:visited, .past-events a:visited {
+	color: white;
+}
+
+.event a:hover, .past-events a:hover {
+	color: white;
+	text-decoration: underline;
+}
+.event {
+	width: 1210px;
+	height: 200px;
+	margin: 20px auto;
+	background-color: #005794;
+	color: white;
+}
+
+.event .title-location-date {
+	float: left;
+	width: 320px;
+	height: 100%;
+	font-size: 160%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	padding-left: 40px;
+}
+
+.event .conductor {
+	float: left;
+	width: 240px;
+	height: 180px;
+	border-left: 1px solid white;
+	font-size: 120%;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 10px 0 0;
+	text-align: center;
+}
+
+.conductor img {
+	margin-bottom: 5px;
+}
+
+.conductor h4, .artists h4 {
+	font-size: 125%;
+}
+
+.artists ul {
+	list-style: none;
+	margin-left: -40px; margin-top: 20px;
+}
+
+.artists li {
+	margin-bottom: 5px;
+}
+.event .artists {
+	float: left;
+	width: 240px;
+	height: 180px;
+	border-left: 1px solid white; border-right: 1px solid white;
+	font-size: 120%;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 10px 0 0;
+	text-align: center;
+}
+
+.event .buttons {
+	float: left;
+	width: 410px;
+	height: 100%;
+}
+
+.buttons button {
+	margin: 20px;
+	width: 366px;
+	height: 70px;
+	font-size: 120%;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: white;
+	border: 0px;
+}
+
+.buttons a, .buttons a:visited {
+	color: #005794;
+}
+
+.buttons a:hover {
+	color: #027EE1;
+}
+
+.buttons img {
+	margin: 0 20px;
+}
