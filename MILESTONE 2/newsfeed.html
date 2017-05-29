@@ -2,11 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>The Barrier Reef Orchestra</title>
-	
+	<title>Newsfeed / Announcements - Barrier Reef Orchestra</title>
 	<link href="mainstyles.css" rel="stylesheet" type="text/css">
-	<link href="homestyles.css" rel="stylesheet" type="text/css">
-	<script src="mainscripts.js" type="text/javascript"></script>
+	<link href="announcestyles.css" rel="stylesheet" type="text/css">
 	
 	<!-- Carousel -->
 	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -16,7 +14,7 @@
 	<script src="carousel.js" type="text/javascript"></script>
 	<!-- End of Carousel -->
 </head>
-<body>	
+<body>
 	<header>
 		<img id="header-img" src="logos/barrier_reef_orchestra_logo.png" title="Barrier Reef Orchestra" alt="Barrier Reef Orchestra Logo" width="518" height="184">
 		<nav id="main-nav" class="nav">
@@ -29,7 +27,7 @@
 						<li><a href="committee_and_supporters.html">Our Committee &amp; Supporters</a></li>
 						<li><a href="artists.html">Orchestra Artists</a></li>
 					</ul>
-				</li>
+				</li>	<!-- End of DropDown -->
 				<li><a href="events.html">Events</a></li>
 				<li class="galleries">
 					<a href="#">Galleries &#9662;</a>
@@ -47,9 +45,9 @@
 	</header>
 	<div id="wrapper">	<!-- Container is used for pushing footer to the bottom -->
 		<div id="main-content">
-			<section id="announcements">
-				<h2>Announcements</h2>
-				<div class="announcement-box" id="announce1">
+			<section id="activeAnnouncements">
+				<h2>Active Announcements</h2>
+				<div class="announcement-box active" id="announce1">
 					<h3 class="announcement-title">AUGUST NEWSLETTER</h3>
 					<section class="announcement-info-box">
 						<p class="announcement-info">The president Andrew Ryder discusses the Orchestra's recent success, the new life members and their impact on the Orchestra, and the conducting workshop hosted by Raymond Yong.</p>
@@ -59,7 +57,7 @@
 					</aside>
 					<a href="announcements/august_newsletter.html"><button type="button" class="announce-btn">Go To Announcement</button></a>
 				</div>
-				<div class="announcement-box" id="announce2">
+				<div class="announcement-box active" id="announce2">
 					<h3 class="announcement-title">NOVEMBER REHEARSAL TIMES</h3>
 					<section class="announcement-info-box">
 						<p class="announcement-info">The current planned rehearsal times for the Novemeber concert are now released. The current plan is to have a signle September rehearsal followed by several October rehearsals. Click below for the full details.</p>
@@ -69,7 +67,7 @@
 					</aside>
 					<a href="announcements/november_rehearsals.html"><button type="button" class="announce-btn">Go To Announcement</button></a>
 				</div>
-				<div class="announcement-box" id="announce3">
+				<div class="announcement-box active" id="announce3">
 					<h3 class="announcement-title">NOTICE OF AGM</h3>
 					<section class="announcement-info-box">
 						<p class="announcement-info">All members are advised that the Annual General Meeting (AGM), will take place at Pimlico State High School Performing Arts Building, Fulham Road, Pimlico on Sunday 17th of May at 2pm. All members are welcome.</p>
@@ -79,67 +77,22 @@
 					</aside>
 					<a href="announcements/notice_of_agm2015.html"><button type="button" class="announce-btn">Go To Announcement</button></a>
 				</div>
-			</section>	<!-- End of Announcements -->
-			<section id="upcoming-concert">
-				<div id="title-location-time">
-					<h3 id="next-con-title">WORLD OF MUSIC</h3>
-					<h4 class="next-con-time&date">Townsville Civic Theatre</h4>
-					<h4 class="next-con-time&date">5th September, 8pm</h4>
+			</section>	<!-- End of Active Announcements -->
+			<section id="expiredAnnouncements">
+				<h2>Expired Announcements</h2>
+				<div class="announcement-box expired">
+					<h3 class="announcement-title">EXPIRED ANNOUNCEMENT TITLE</h3>
+					<section class="announcement-info-box">
+						<p class="announcement-info">The Expired announcement text</p>
+					</section>
+					<aside class="expiry-date">
+						<p>Expired: 30/08/20??</p>
+					</aside>
+					<a href="#"><button type="button" class="announce-btn">Go To Announcement</button></a>
 				</div>
-				<div id="next-con-info">
-					<section id="conductor">
-						<h4>CONDUCTOR:</h4>
-						<ul class="next-con-artists">
-						  <li>Andrew Ryder</li>
-						</ul>
-					</section>	<!-- End of Conductor -->
-					<section id="special-guests">
-						<h4>SPECIAL GUESTS:</h4>
-						<ul class="next-con-artists">
-							<li>David Hudson (Musician)</li>
-							<li>Domenico Taraborrelli</li>
-							<li>Adam Lopz (Vocal)</li>
-						</ul>
-					</section>	<!-- End of Special Guests -->
-				</div>
-				<a class="remove-link-lines" href="google.com" ><div id="next-con-learn-more">
-					<p>LEARN MORE</p>
-					</div></a>
-				<img src="button_images/ticket_shop.png" class="ticketShop" alt="Tickets Available at Ticketshop - Riverway Art Centre / Townsville Civic Theatre" title="TicketShop" width="366" height="70">
-			</section>	<!-- End of Upcoming Concert -->
-			<div id="second-col-set">
-				<section id="facebook">
-					<h2 class="secondary-main">Join Us On Facebook</h2>
-					<div class="fb-page" data-href="https://www.facebook.com/nqorchestra/" data-tabs="timeline" data-width="411" data-height="590" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nqorchestra/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nqorchestra/">Barrier Reef Orchestra</a></blockquote></div>
-				</section>	<!-- End of Facebook Integration -->
-				<section id="home-sign-up">
-					<h2 class="secondary-main">Join The Community</h2>
-					<div class="home-form-buttons">
-						<a href="#"><img src="button_images/become_a_member_smaller.png" alt="Become A Member" width="411" height="180"></a>
-					</div>
-					<div class="home-form-buttons">
-						<a href="#"><img src="button_images/become_a_benefactor_smaller.png" alt="Become A Benefactor" width="411" height="180"></a>
-					</div>
-					<div class="home-form-buttons">
-						<a href="#"><img src="button_images/join_the_orchestra_smaller.png" alt="Apply to Join the Orchestra" width="411" height="180"></a>
-					</div>
-				</section>	<!-- End of Member Buttons -->
-				<section id="home-featured-artist">
-					<h2 class="secondary-main">Featured Artist</h2>
-					<div id="home-artists-image">
-						<img src="artist_images/bronwyn_douglas_web.png" title="Bronwyn Douglass" alt="Featured Artist: Bronwyn Douglas" width="371" height="240">
-					</div>
-					<div id="home-artist-info">
-						<h3 id="home-artist-name">Bronwyn Douglas</h3>
-						<p>Bronwyn graduated with a Masters in Operatic Performance from the Queensland Conservatorium Griffith University in 2014, also receiving an award for academic excellence and the Wagner Society in Queensland Encouragement Award. She attended the Lisa Gasteen National Opera School from 2013-2015 and the Mediterranean Opera Summer Program held in Caltagirone, Sicily in 2014...</p>
-					</div>
-					<a class="remove-link-lines" href="ARTISTPAGE"><div id="home-go-to-artist">
-						<p>Click Here to go to Bronwyn's Page</p>
-					</div></a> 
-				</section>	<!-- End of Featured Artist -->
-			</div> <!-- End of Second set of Cols -->
+			</section>	<!-- End of Expired Announcements -->
 		</div>	<!-- End of Main -->
-        <div class="push"></div> <!-- Used to push the footer to create a 'sticky' footer -->
+		<div class="push"></div>
 	</div>	<!-- End of Container -->
 	<footer>
 			<div class="footerline"></div> <!-- Line for the top of Footer -->
@@ -168,7 +121,7 @@
 							<li><a href="committee_and_supporters.html">Our Committee &amp; Supporters</a></li>
 							<li><a href="artists.html">Orchestra Artists</a></li>
 						</ul>
-					</li>
+					</li>	<!-- End of DropDown -->
 					<li><a href="events.html">Events</a></li>
 					<li class="galleries">
 						<a href="#">Galleries &#9662;</a>

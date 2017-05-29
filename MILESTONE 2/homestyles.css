@@ -4,66 +4,6 @@ COLORS
 Main Blue (Nav, Footer & Logo): #005794 
 */
 
-/* ANNOUNCEMENTS */
-
-#announcements {
-	margin-bottom: 270px;
-}
-
-#announcements h2 {
-	text-align: center;
-	font-family: 'PT Serif', Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	border-bottom: 2px solid #005794;
-	margin: 0 auto 20px;
-	font-size: 220%;
-}
-
-#announce2 {
-	margin: 0px 25px;
-}
-
-.announcement-box {
-	background-color: #005794;
-	width: 411px;
-	height: 210px;
-	float: left;
-}
-
-.announcement-title {
-	color: white;
-	font-size: 130%;
-	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	margin: 10px 0px 0px 0px;
-	text-align: center;
-}
-
-.announcement-info {
-	color: white;
-	text-align: center;
-	padding: 10px 20px;
-}
-
-#announcements .read-more-button {
-	width: 371px;
-	height: 30px;
-	margin: 0 20px;
-	padding: 5px;
-	text-align: center;
-	text-decoration: none;
-	cursor: pointer;
-	background-color: white;
-}
-
-.announcement-info-box {
-	height: 105px;
-}
-
-.expiry-date {
-	color: white;
-	text-align: center;
-	font-size: 90%;
-}
-
 /* UPCOMING CONCERT */
 #upcoming-concert {
 	clear: both;

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+/*
+COLORS
+Main Blue (Nav, Footer & Logo): #005794 
+*/
+
+#activeAnnouncements h2, #expiredAnnouncements h2, #announcement h2 {
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 220%;
+	margin-bottom: 15px;
+	text-align: center;
+	border-bottom: 1px solid #005794;
+}
+
+#expiredAnnouncements {
+	clear: both;
+	margin-top: 270px;
+}
+.announcement-box.expired {
+	background-color: slategray;
+	margin: 0 436px;
+}
+
+/* INDIVIDUAL ANNOUNCE PAGES */
+.post-info ul {
+	text-align: center;
+	margin: -5px -40px;
+	list-style: none;
+}
+
+.post-info ul li {
+	display: inline-block;
+}
+
+.post-info li+li:before {
+	padding: 8px;
+	content: "/\00a0";
+}
+
+#announce-article {
+	text-align: center;
+	width: 75%;
+	font-size: 110%;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 0 auto;
+}
+
+#announce-article h3 {
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 160%;
+	border-bottom: 1px solid #005794;
+	margin-top: 20px;
+}
+
+#announce-article li {
+	list-style: none;
+	margin-bottom: 3px; margin-left: -52px;
+}
+
+#announce-article .agenda li {
+	font-weight: bold;
+}
+
+#pdf-download {
+	margin-left: -10px;
+}
+
+#pdf-download button {
+	background-color: #005794;
+	border: none;
+	color: white;
+	margin: 15px 0 30px;;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 110%;
+	height: 40px;
+	width: 400px;
+}
