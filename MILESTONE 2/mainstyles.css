@@ -97,6 +97,11 @@ ul.dropdown li a {
 #footer-nav .primary-menu li ul.dropdown {
 	top: -105px;
 }
+
+#footer-nav .primary-menu .galleries ul.dropdown {
+	top: -146px;
+}
+
 /* NAV */
 #main-nav li {
 	font-size: 18px;
@@ -156,9 +161,6 @@ nav#breadcrumb li:first-child {
 nav#breadcrumb li+li:before {
 	padding: 8px;
 	content: "/\00a0";
-}
-
-nav#breadcrumb li a {
 }
 
 /* Footer */
