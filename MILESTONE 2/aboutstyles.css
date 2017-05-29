@@ -8,6 +8,7 @@ Main Blue (Nav, Footer & Logo): #005794
 	float: left;
 	width: 250px;
 	margin-top: 50px;
+	box-shadow: 0px 10px 26px 0px rgba(0,0,0,0.42);
 }
 
 #side-nav ul {
@@ -61,5 +62,135 @@ Main Blue (Nav, Footer & Logo): #005794
 #about-us p {
 	font-size: 120%;
 	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+
+/* CONCERTS */
+#concerts-overview h2 {
+	text-align: center;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 220%;
+	border-bottom: 1px solid #005794;
+}
+
+#concerts-overview .area-title {
+	text-align: center;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid #005794;
+}
+/* CONCERT OVERVIEW */
+#concerts-overview {
+	position: relative;
+	float: left;
+	width: 980px;
+	margin: 0 0 40px 40px;
+}
+
+.event {
+	float: right;
+	margin-bottom: 20px;
+	width: 980px;
+	height: 180px;
+	background-color: #005794;
+	color: white;
+}
+
+.event .title-location-date {
+	float: left;
+	width: 275px;
+	padding-left: 40px;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+.event .conductor {
+	float: left;
+	font-size: 110%;
+	width: 200px;
+	height: 160px;
+	margin: 10px 0 0;
+	text-align: center;
+	border-left: 1px solid white;
+}
+
+.conductor img {
+	margin-bottom: 10px;
+}
+
+.event .artists {
+	float: left;
+	font-size: 120%;
+	width: 200px;
+	height: 160px;
+	margin: 10px 0 0;
+	text-align: center;
+	border-left: 1px solid white; border-right: 1px solid white;
+}
+
+.artists ul {
+	list-style: none;
+	margin-left: -40px;
+}
+
+.event .buttons {
+	float: left;
+	height: 100%;
+	width: 305px;
+	margin-left: 1px solid white;
+}
+
+.buttons button {
+	margin: 20px 20px 0;
+	width: 260px;
+	height: 60px;
+	color: #005794;
+	font-size: 120%;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: white;
+	border: 0px;
+}
+
+.event a, .past-events a, .event a:visited, .past-events a:visited {
+	color: white;
+}
+
+.event a:hover, .past-events a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.buttons a, .buttons a:visited {
+	color: #005794;
+}
+
+.buttons a:hover {
+	color: #027EE1;
+}
+
+/* REPORT */
+#report h2 {
+	border-bottom: 1px solid #504792;
+	text-align: center;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+#report section {
+	width: 75%;
+	margin: 40px auto;
+	font-size: 120%;
+	text-align: center;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#report section ul {
+	list-style: none;
+}
+
+#report section ul li {
+	margin-left: -30px;
+}
+
+#report h3 {
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	border-bottom: 1px solid #504792;
 	text-align: center;
 }

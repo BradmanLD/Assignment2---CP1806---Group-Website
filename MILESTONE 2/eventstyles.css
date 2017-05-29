@@ -30,6 +30,7 @@ Main Blue (Nav, Footer & Logo): #005794
 .event.even {
 	background-color: #23c5b7;
 }
+
 .event .title-location-date {
 	float: left;
 	width: 320px;
@@ -66,6 +67,7 @@ Main Blue (Nav, Footer & Logo): #005794
 .artists li {
 	margin-bottom: 5px;
 }
+
 .event .artists {
 	float: left;
 	width: 240px;
@@ -97,6 +99,7 @@ Main Blue (Nav, Footer & Logo): #005794
 .buttons .bottombutton {
 	margin: 0 20px;
 }
+
 .buttons a, .buttons a:visited {
 	color: #005794;
 }
