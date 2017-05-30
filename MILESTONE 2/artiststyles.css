@@ -41,7 +41,7 @@ Main Blue (Nav, Footer & Logo): #005794
 	box-shadow: 0 0px 2px 1px #ddd;
 }
 
-#about-the-artist h4 {
+#about-the-artist h4.article-head {
 	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 160%;
 	border-bottom: 1px solid grey;
@@ -158,4 +158,72 @@ Main Blue (Nav, Footer & Logo): #005794
 	height: 30px;
 	width: 360px;
 	margin: 0 10px;
+}
+
+/* PERFORMANCES */
+.event {
+	width: 900px;
+	height: 180px;
+	margin: 20px auto;
+	background-color: #005794;
+	color: white;
+}
+
+.event .title-location-date {
+	float: left;
+	width: 260px;
+	height: 100%;
+	padding-left: 30px; padding-top: 5px;
+}
+
+.event .date, .event .location {
+	font-size: 115%;
+}
+
+.event h3.title {
+	font-size: 140%;
+	margin-bottom: 20px;
+}
+
+.event .artists {
+	float: left;
+	width: 360px;
+	height: 80%;
+	margin-top: 20px;
+	text-align: center;
+	border-left: 1px solid white; border-right: 1px solid white;
+}
+
+.event .artists ul {
+	list-style: none;
+}
+
+.event .artists li {
+	margin-top: 10px;
+	padding-right: 45px;
+}
+
+.event .artists ul li a, event .artists ul li a:visited {
+	color: white;
+	font-size: 105%;
+}
+
+.event .buttons {
+	float: left;
+	width: 280px;
+	height: 100%;
+}
+
+.event button {
+	width: 240px;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 105%;
+	background-color: white;
+	border: none;
+	margin: 20px;
+	height: 60px;
+}
+
+.event .bottombutton {
+	margin: 0 20px;
 }
