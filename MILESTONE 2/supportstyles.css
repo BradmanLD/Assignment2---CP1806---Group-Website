@@ -107,7 +107,7 @@ form label {
 	font-size: 130%;
 }
 
-input[type="text"], input[type="email"], input[type="date"], input[type="tel"], input[type="number"], select {
+input[type="text"], input[type="email"], input[type="date"], input[type="tel"], input[type="number"], input[type="password"], select {
 	width: 100%;
 	padding: 12px 20px;
 	margin: 5px 0 20px;
