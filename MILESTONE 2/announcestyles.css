@@ -62,6 +62,7 @@ Main Blue (Nav, Footer & Logo): #005794
 }
 
 #pdf-download {
+	text-align: center;
 	margin-left: -10px;
 }
 
@@ -74,4 +75,34 @@ Main Blue (Nav, Footer & Logo): #005794
 	font-size: 110%;
 	height: 40px;
 	width: 400px;
+}
+
+/* TIMETABLE */
+#timetable {
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	border-collapse: collapse;
+	width: 850px;
+	margin: 20px auto;
+}
+
+#timetable td, #timetable th {
+	border: 1px solid #ddd;
+	padding: 14px;
+}
+
+#timetable tr.with-event-conductor {
+	background-color: aliceblue;
+}
+
+#timetable tr:hover {
+	background-color: #ddd;
+}
+
+#timetable th {
+	padding: 16px;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 110%;
+	color: white;
+	background-color: #005794;
+	text-align: center;
 }
