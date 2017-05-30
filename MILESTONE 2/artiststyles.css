@@ -3,6 +3,60 @@
 COLORS
 Main Blue (Nav, Footer & Logo): #005794 
 */
+
+/* INDIVDIUAL ARTIST PAGES */
+#individual-artist #image-name-role, #individual-artist #about-the-artist {
+	float: left;
+	margin-top: 20px; margin-bottom: 40px;
+}
+
+#image-name-role {
+	width: 320px;
+}
+
+#image-name-role h2 {
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 220%;
+	text-align: center;
+	margin: 0;
+}
+
+#image-name-role h3 {
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 160%;
+	text-align: center;
+	margin: 0px;
+}
+
+#image-name-role img {
+	margin: 10px 20px;
+	box-shadow: 0 0px 2px 1px #ddd;
+}
+
+#about-the-artist {
+	width: 960px;
+	min-height: 600px;
+	padding: 20px;
+	background-color: aliceblue;
+	box-shadow: 0 0px 2px 1px #ddd;
+}
+
+#about-the-artist h4 {
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 160%;
+	border-bottom: 1px solid grey;
+}
+
+#performances {
+	margin-top: 40px;
+}
+
+#about-the-artist p {
+	font-size: 120%;
+	font-family: "PT Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding: 10px;
+}
+
 #feat-artist h2 {
 	font-size: 220%;
 	text-align: center;
