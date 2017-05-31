@@ -18,7 +18,7 @@ Main Blue (Nav, Footer & Logo): #005794
 }
 .announcement-box.expired {
 	background-color: slategray;
-	margin: 0 436px;
+	margin: 0 436px 40px;
 }
 
 /* INDIVIDUAL ANNOUNCE PAGES */
