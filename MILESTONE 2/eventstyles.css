@@ -111,3 +111,108 @@ Main Blue (Nav, Footer & Logo): #005794
 .buttons img {
 	margin: 0 20px;
 }
+
+/* INDIVIDUAL EVENT PAGES */
+#concert #overview {
+	float: left;
+	width: 75%;	
+	font-size: 110%;
+}
+
+#concert h2 {
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 220%;
+	text-align: center;
+	border-bottom: 1px solid #005794;
+}
+
+#program, #orchestra-members {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#program {
+	text-align: center;
+}
+
+#program ul {
+	list-style: none;
+	margin-left: -50px; /* Re-align lis */
+}
+
+#program .program-section {
+	margin-top: 20px; margin-bottom: 40px;
+}
+
+#conductor p {
+	text-align: center;
+	font-size: 120%;
+}
+
+#conductor, #special-guests {
+	float: left;
+	width: 382px;
+	margin-bottom: 40px;
+}
+
+#conductor {
+	margin-left: 96px;
+	margin-right: 10px;
+}
+
+#special-guests ul {
+	list-style: none;
+	text-align: center;
+	font-size: 105%;
+	margin-left: -35px;
+}
+
+#overview h3 {
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:180%;
+	text-align: center;
+	border-bottom: 1px solid #005794;
+}
+
+#concert-info-side {
+	float: left;
+	right: 50px;
+	width: 20%;
+}
+
+#concert-info-side h3 {
+	font-size: 160%;
+	font-family: "PT Serif", Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	margin-top: 26px;
+	border-bottom: 1px solid #005794;
+	text-align: center;
+}
+
+#concert-info-side ul {
+	list-style: none;
+	font-size: 120%;
+	text-align: center;
+	margin-left: -40px;
+}
+
+#concert-info-side section {
+	margin-bottom: 40px;
+}
+
+
+#orchestra-members {
+	clear: both;
+	margin-bottom: 60px;
+}
+
+#orchestra-members ul {
+	font-size: 105%;
+	margin-bottom: 40px;	
+	text-align: center;
+	list-style: none;
+	margin-left: -45px;
+}
+
+#orchestra-members ul li {
+	margin-bottom: 15px;
+}
